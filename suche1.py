@@ -1,5 +1,6 @@
 import os
-import keyboard  # Importiere die 'keyboard'-Bibliothek
+import keyboard  # Für Tasteneingaben
+import time  # Für Pausen in der Schleife
 
 def search_keywords_in_file(file_path, keywords):
     line_number = 0
@@ -10,21 +11,28 @@ def search_keywords_in_file(file_path, keywords):
         with open(file_path, 'r', encoding='utf-8') as file:
             for line in file:
                 line_number += 1
-                if keyboard.is_pressed('p'):  # Prüfen, ob 'p' gedrückt wurde
+                
+                # Überprüfen, ob 'p' gedrückt wurde, um zu pausieren
+                if keyboard.is_pressed('p'):
                     paused = not paused
+                    if paused:
+                        print("Pause aktiviert. Drücke 'p', um fortzufahren.")
                     while paused:
+                        time.sleep(0.1)  # Kurze Pause zur Vermeidung von CPU-Überlastung
                         if keyboard.is_pressed('p'):
                             paused = False
                             print("Fortgesetzt.")
-                        # Kurze Pause, um CPU-Last zu reduzieren
-                        time.sleep(0.1)
+                            break
+                
                 if paused:
                     continue
+
                 for keyword in keywords:
                     if keyword in line:
                         print(f"Zeile {line_number}: {line.strip()}")
                         hits += 1
                         break
+
     except KeyboardInterrupt:
         print("\nSuche beendet.")
 
