@@ -1,5 +1,7 @@
 # SearchTXT
 
+# rockyou2024 password checker !!
+
 ChatGPT machte für mich ein skript um große textdatei. zu durchsuchen mit keywords
 laut ChatGPT:
 pfad angeben wo die txt datei ist
@@ -25,6 +27,9 @@ das skript durchsucht die datei und in echtzeit könnt ihr die treffer verfolgen
 mit p = pausiert ihr das skript falls ihr genauer gucken wollt
 mit w = macht das skript weiter
 
-
+Search.py = erste version, pause nicht möglich
 new.py (update) = zeigt live die treffer an, man kann nun mit p= pasieren und mit w= weiter machen 
+suche1.py (testphase/experimentier freudig) speichert die ergebisse in max. 1500 zeilen große .txt datei
+
+
 - g0dm0de1337
