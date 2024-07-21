@@ -27,9 +27,13 @@ das skript durchsucht die datei und in echtzeit könnt ihr die treffer verfolgen
 mit p = pausiert ihr das skript falls ihr genauer gucken wollt
 mit w = macht das skript weiter
 
-~ Search.py = erste version, pause nicht möglich
-~ new.py (update) = zeigt live die treffer an, man kann nun mit p= pasieren und mit w= weiter machen 
-~ suche1.py (testphase/experimentier freudig) speichert die ergebisse in max. 1500 zeilen große .txt datei
+______________
+• Search.py = erste version, pause nicht möglich
+______________
+• new.py (update) = zeigt live die treffer an, man kann nun mit p= pasieren und mit w= weiter machen 
+______________
+• suche1.py (testphase/experimentier freudig) = speichert die ergebisse in max. 1500 zeilen große .txt datei
+______________
 
 
 - g0dm0de1337
