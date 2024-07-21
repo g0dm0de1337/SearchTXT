@@ -25,4 +25,6 @@ das skript durchsucht die datei und in echtzeit könnt ihr die treffer verfolgen
 mit p = pausiert ihr das skript falls ihr genauer gucken wollt
 mit w = macht das skript weiter
 
+
+new.py (update) = zeigt live die treffer an, man kann nun mit p= pasieren und mit w= weiter machen 
 - g0dm0de1337
